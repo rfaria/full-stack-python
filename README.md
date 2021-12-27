@@ -4,7 +4,7 @@ This repo consists of the building blocks for a Python full stack web applicatio
 
 - [Python Crash Course](https://github.com/rfaria/full-stack-python/tree/main/Python%20Crash%20Course)
 - [Naive Signup System Prototype](https://github.com/rfaria/full-stack-python/tree/main/Login%20%26%20Signup%20System%20Prototype)
-- [Django Crash Course]
+- [Django Crash Course](https://github.com/rfaria/full-stack-python/tree/main/Django%20Crash%20Course)
 
 ## References
 
