@@ -1,4 +1,4 @@
-# full-stack-python
+# Full Stack Python
 
 This repo consists of the building blocks for a Python full stack web application. It contains examples, structures, and mini projects.
 
