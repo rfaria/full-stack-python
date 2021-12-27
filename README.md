@@ -10,3 +10,4 @@ This repo consists of the building blocks for a Python full stack web applicatio
 
 - [Backend Web Development with Python - Full Course](https://www.freecodecamp.org/news/backend-web-development-with-python-full-course/)
 - [Full Stack Python](https://www.fullstackpython.com/)
+- [Django Documentation](https://docs.djangoproject.com/en/4.0/)
