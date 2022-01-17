@@ -1,3 +1,9 @@
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+
 # Full Stack Python
 
 This repo consists of the building blocks for a Python full stack web application. It contains examples, structures, and mini projects.
