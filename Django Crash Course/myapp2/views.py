@@ -47,7 +47,8 @@ def index(request):
     # features = [feature1, feature2, feature3, feature4]
 
     # return render(request, 'myapp2_templates/index.html', context)
-    return render(request, 'myapp2_templates/index.html', {'features': features})
+
+    return render(request, 'myapp2_templates/index.html', {'features': features, 'app': 'myapp2'})
 
 
 def greetings(request):
@@ -84,3 +85,34 @@ def register(request):
             return redirect('register')
     else:
         return render(request, 'myapp2_templates/register.html')
+
+
+def login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = auth.authenticate(username=username, password=password)
+
+        if user is not None:
+            auth.login(request, user)
+            return redirect('/')
+        else:
+            messages.info(request, 'Invalid Credentials')
+            return redirect('login')
+    else:
+        return render(request, 'myapp2_templates/login.html')
+
+
+def logout(request):
+    auth.logout(request)
+    return redirect('/')
+
+
+def post(request, pk):
+    return render(request, 'myapp2_templates/post.html', {'pk': pk})
+
+
+def list(request):
+    posts = [1, 2, 3, 4, 'John', 'Paul', 'Mary']
+    return render(request, 'myapp2_templates/list.html', context={'posts':posts})
