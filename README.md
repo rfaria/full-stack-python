@@ -11,6 +11,7 @@ This repo contains the building blocks for full stack web development with Pytho
 - [Backend Web Development with Python - Full Course](https://www.freecodecamp.org/news/backend-web-development-with-python-full-course/)
 - [Full Stack Python](https://www.fullstackpython.com/)
 - [Django Documentation](https://docs.djangoproject.com/en/4.0/)
+- [LearnDjango](https://learndjango.com/)
 
 ## Related Content
 
